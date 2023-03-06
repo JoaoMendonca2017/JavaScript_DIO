@@ -1,0 +1,1 @@
+Neste repositório encontram-se os exercícios do início dos estudos de JavaScript na plataforma da Dio.me.

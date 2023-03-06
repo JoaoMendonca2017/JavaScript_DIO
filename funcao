@@ -1,0 +1,117 @@
+
+/*function sayMyName(name){
+    console.log('Your name is:' + name);
+    
+}
+
+sayMyName('João Pedro');
+sayMyName('Carol'); */
+
+
+
+/*
+
+function quadrado (valor){
+    return valor * valor;
+}
+
+quadrado (10);
+console.log(quadrado(10)); */
+
+
+
+/*function incrementarJuros(valor, juros){
+    const acrescimo = (juros/100) * valor;
+    return valor + acrescimo
+
+}
+
+console.log(incrementarJuros(100, 30));
+console.log(incrementarJuros(100, 45)); */
+
+
+
+
+/*function calcularImc(peso, altura) {
+    return peso / Math.pow(altura, 2);
+}
+
+function classificarImc(imc) {
+    if (imc < 18.5) {
+        return ('Abaixo do peso');
+    }
+    else if (imc <= 18.5 && imc < 25) {
+        return ('Peso Normal');
+    }
+    else if (imc >= 25 && imc < 30) {
+        return('Acima do Peso');
+    }
+    else if (imc >= 30 && imc < 40) {
+        return('Obeso');
+    }
+    else {
+        return('Obesidade Grave');
+    }
+}
+
+
+function main() {
+    const peso = 87;
+    const altura = 1.86;
+    
+    const imc = (peso,altura);       
+    console.log(classificarImc(imc));
+    
+
+}
+
+main(); */
+
+
+/*function escreveNome(name){
+    console.log('Meu nome é:' + name);
+}
+escreveNome('João Pedro');
+escreveNome('Renan'); */
+
+
+/*function maiorIdade(idade) {
+    if (idade < 18) {
+        console.log ('Menor de idade');
+    }
+    else {
+        console.log ('Maior de idade');
+    }
+}
+
+maiorIdade(20);
+*/
+
+
+function aplicarDesconto(valor, desconto){
+    return (valor - (valor * (desconto/100)));
+}
+
+function aplicarJuros(valor, juros){
+    return (valor + (valor * (juros/100)));
+}
+
+
+const precoEtiqueta = 100;
+const formaDePagamento = 4;
+
+if (formaDePagamento === 1){
+    console.log(aplicarDesconto(precoEtiqueta, 10));
+}
+else if (formaDePagamento === 2){
+    console.log(aplicarDesconto(precoEtiqueta , 15));
+}
+if (formaDePagamento === 3){
+    console.log(precoEtiqueta);
+}
+if (formaDePagamento === 4){
+    console.log(aplicarJuros(precoEtiqueta, 10));
+}
+
+
+
