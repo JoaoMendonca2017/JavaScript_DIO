@@ -1,0 +1,14 @@
+Git é um versionamento de código.
+
+Link para download do Git:
+https://git-scm.com/downloads
+
+O Git Bash é um terminal extendido para otimizar o uso do Git.
+
+Aprendendo os comandos básicos no Git:
+
+git init
+git add
+git remove
+git push
+git pull git commit
